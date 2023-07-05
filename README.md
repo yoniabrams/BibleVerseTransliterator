@@ -82,7 +82,8 @@ The following dependencies are required to run the application:
 ## Credits
 - The Bolls.life Bible API (https://bolls.life) for providing the biblical text data.
 - Morris Alper for training the TaatikNet inference model used for transliteration.
-  - [Morris' GitHub Profile](https://github.com/morrisalp)
+  - [Alper's GitHub Profile](https://github.com/morrisalp)
+  - [His 'Towards Data Science' Article on the topic](https://towardsdatascience.com/taatiknet-sequence-to-sequence-learning-for-hebrew-transliteration-4c9175a90c23)
 - Hugging Face (https://huggingface.co) for hosting the inference API.
 
 ***Thank you for stopping by this repo - I hope you enjoyed!***
