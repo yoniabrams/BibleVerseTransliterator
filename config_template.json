@@ -1,0 +1,11 @@
+{
+  "base_bolls_url": "https://bolls.life/get-verse",
+  "default_translation": "WLC",
+  "hugging_face_api_configs":
+  {
+    "api_token": "[HUGGING FACE INFERENCE API TOKEN]",
+    "api_url": "https://api-inference.huggingface.co/models/malper/taatiknet",
+    "taatiknet_model_label": "malper/taatiknet",
+    "model_type": "text2text-generation"
+  }
+}
