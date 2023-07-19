@@ -19,4 +19,4 @@ def get_verse_and_inference(book_index, chapter, verse):
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0")
+    app.run(host="0.0.0.0", port=5000)

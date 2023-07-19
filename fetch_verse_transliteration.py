@@ -42,7 +42,10 @@ def get_inference(verse):
     :param verse: ([str, str, etc.]) The words of a Hebrew verse/sentence
     :return: inference (i.e. transliteration) from the taatiknet model on HuggingFace
     """
-    response = requests.post(API_URL, headers=headers, json=verse)
+    while True:
+        response = requests.post(API_URL, headers=headers, json=verse)
+        if response is not None and response.status_code == 200:
+          break
     return response.json()
 
 
